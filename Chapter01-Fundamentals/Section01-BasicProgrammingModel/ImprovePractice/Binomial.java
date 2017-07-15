@@ -40,10 +40,10 @@ public class Binomial {
     }
 
     /**
-     * éšæœºå˜é‡Xæœä»å‚æ•°ä¸ºN,pçš„äºŒé¡¹åˆ†å¸ƒã€‚è®¡ç®—P{X = k}çš„å€¼ã€‚P{X = k} = C(N,k)*p^k*(1-p)^(n-k)
-     * @param N æ ·æœ¬æ€»é‡
-     * @param k æŠ½æ ·æ•°
-     * @param p äº‹ä»¶å‘ç”Ÿæ¦‚ç‡
+     * Ëæ»ú±äÁ¿X·ş´Ó²ÎÊıÎªN,pµÄ¶şÏî·Ö²¼¡£¼ÆËãP{X = k}µÄÖµ¡£P{X = k} = C(N,k)*p^k*(1-p)^(n-k)
+     * @param N Ñù±¾×ÜÁ¿
+     * @param k ³éÑùÊı
+     * @param p ÊÂ¼ş·¢Éú¸ÅÂÊ
      * @return P{X = k}
      */
     public static double binomial1(int N, int k, double p){
