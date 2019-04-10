@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+
 import edu.princeton.cs.algs4.*;
 /**
  * Practice5

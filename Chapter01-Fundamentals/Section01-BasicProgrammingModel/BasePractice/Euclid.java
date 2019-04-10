@@ -15,6 +15,6 @@ public class Euclid {
 	public static void main(String[] args) {
 		int divisor = Integer.parseInt(args[0]);
 		int dividend = Integer.parseInt(args[1]);
-		StdOut.println(Euclid(divisor, dividend));
+		StdOut.println(euclid(divisor, dividend));
     }
 }
