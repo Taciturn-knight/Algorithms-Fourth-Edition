@@ -1,7 +1,7 @@
 /**
- * ç¼–è¯‘: javac Interval1DCase.java
- * æ‰§è¡Œ: java Interval1DCase {@var integer} < Interval1D.txt
- * ä¾èµ–: Interval1D.java StdOut.java
+ * ±àÒë: javac Interval1DCase.java
+ * Ö´ÐÐ: java Interval1DCase {@var integer} < Interval1D.txt
+ * ÒÀÀµ: Interval1D.java StdOut.java
  * 
  * % java Interval1DCase 3 < Interval1D.txt
  * [0.1, 1.0]
@@ -15,8 +15,8 @@ import edu.princeton.cs.algs4.StdIn;
 
 /**
  * Practice 1.2.2
- * {@code Interval1DCase} ç¼–å†™ä¸€ä¸ªInterval1Dçš„ç”¨ä¾‹ï¼Œä»Žå‘½ä»¤è¡ŒæŽ¥å—ä¸€ä¸ªæ•´æ•°Nã€‚ä»Žæ ‡å‡†è¾“å…¥ä¸­è¯»
- * å–Nä¸ªé—´éš”(æ¯ä¸ªé—´éš”ç”±ä¸€å¯¹doubleå€¼å®šä¹‰)å¹¶æ‰“å°å‡ºæ‰€æœ‰ç›¸äº¤çš„é—´éš”å¯¹ã€‚
+ * {@code Interval1DCase} ±àÐ´Ò»¸öInterval1DµÄÓÃÀý£¬´ÓÃüÁîÐÐ½ÓÊÜÒ»¸öÕûÊýN¡£´Ó±ê×¼ÊäÈëÖÐ¶Á
+ * È¡N¸ö¼ä¸ô(Ã¿¸ö¼ä¸ôÓÉÒ»¶ÔdoubleÖµ¶¨Òå)²¢´òÓ¡³öËùÓÐÏà½»µÄ¼ä¸ô¶Ô¡£
  */
 public class Interval1DCase {
 

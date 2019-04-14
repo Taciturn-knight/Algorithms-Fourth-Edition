@@ -1,7 +1,7 @@
 /**
- * ç¼–è¯‘: javac BinarySearch.java
- * æ‰§è¡Œ: java BinarySearch witelist.txt < search.txt
- * ä¾èµ–: StdIn.java StdOut.java In.java Counter.java
+ * ±àÒë: javac BinarySearch.java
+ * Ö´ÐÐ: java BinarySearch witelist.txt < search.txt
+ * ÒÀÀµ: StdIn.java StdOut.java In.java Counter.java
  * 
  * % java BinarySearch tinyW.txt < tinyT.txt
  * Search value/times: 50/4
@@ -17,8 +17,8 @@ import java.util.Arrays;
 
 /**
  * Pracetice 1.2.9
- * {@code BinarySearch} ä¿®æ”¹BinarySearchï¼Œä½¿ç”¨Counterç»Ÿè®¡åœ¨æŸ¥æ‰¾ä¸­è¢«æ£€æŸ¥çš„é”®çš„æ€»æ•°å¹¶åœ¨æŸ¥
- * æ‰¾å…¨éƒ¨ç»“æŸåŽæ‰“å°è¯¥å€¼ã€‚
+ * {@code BinarySearch} ÐÞ¸ÄBinarySearch£¬Ê¹ÓÃCounterÍ³¼ÆÔÚ²éÕÒÖÐ±»¼ì²éµÄ¼üµÄ×ÜÊý²¢ÔÚ²é
+ * ÕÒÈ«²¿½áÊøºó´òÓ¡¸ÃÖµ¡£
  */
 public class BinarySearch{
     public static int rank(int key, int[] a, Counter count){

@@ -1,8 +1,8 @@
 /**
- * ç¼–è¯‘: javac Point2DCase.java
- * æ‰§è¡Œ: java Point2DCase {@var Integer}
- * ä¾èµ–: Point2D.java StdRandom.java StdOut.java    
- * 
+ * ±àÒë: javac Point2DCase.java
+ * Ö´ĞĞ: java Point2DCase {@var Integer}
+ * ÒÀÀµ: Point2D.java StdRandom.java StdOut.java
+ *
  * % java Point2DCase 10
  * minDist: 0.053946
  */
@@ -12,8 +12,8 @@ import edu.princeton.cs.algs4.StdOut;
 
 /**
  * Practice 1.2.1
- * {@code Point2DCase}, ç¼–å†™ä¸€ä¸ªPoint2Dçš„ç”¨ä¾‹ï¼Œä»å‘½ä»¤è¡Œæ¥å—ä¸€ä¸ªæ•´æ•°Nã€‚åœ¨å•ä½æ­£æ–¹å½¢
- * ä¸­ç”ŸæˆNä¸ªéšæœºç‚¹ï¼Œç„¶åè®¡ç®—ä¸¤ç‚¹ä¹‹é—´çš„è·ç¦»ã€‚
+ * {@code Point2DCase}, ±àĞ´Ò»¸öPoint2DµÄÓÃÀı£¬´ÓÃüÁîĞĞ½ÓÊÜÒ»¸öÕûÊıN¡£ÔÚµ¥Î»Õı·½ĞÎ
+ * ÖĞÉú³ÉN¸öËæ»úµã£¬È»ºó¼ÆËãÁ½µãÖ®¼äµÄ¾àÀë¡£
  */
 public class Point2DCase {
 

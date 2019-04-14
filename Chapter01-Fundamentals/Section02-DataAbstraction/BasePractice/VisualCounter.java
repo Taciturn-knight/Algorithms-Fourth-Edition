@@ -1,7 +1,7 @@
 /**
- * ç¼–è¯‘: javac VisualCounter.java
- * æ‰§è¡Œ: java VisualCounter count max
- * ä¾èµ–: StdIn.java StdOut.java StdDraw.java
+ * ±àÒë: javac VisualCounter.java
+ * Ö´ĞĞ: java VisualCounter count max
+ * ÒÀÀµ: StdIn.java StdOut.java StdDraw.java
  * 
  * % java VisualCounter 20 20
  * enter +/-
@@ -13,9 +13,9 @@ import edu.princeton.cs.algs4.*;
 
 /**
  * practice 1.2.10
- * {@code VisualCounter} ç¼–å†™ä¸€ä¸ªç±»VisualCounterï¼Œæ”¯æŒåŠ ä¸€å’Œå‡ä¸€æ“ä½œã€‚å®ƒçš„æ„é€ å‡½æ•°æ¥å—ä¸¤
- * ä¸ªå‚æ•°Nå’Œmaxï¼Œå…¶ä¸­NæŒ‡å®šäº†æ“ä½œçš„æœ€å¤§æ¬¡æ•°ï¼ŒmaxæŒ‡å®šäº†è®¡æ•°å™¨çš„æœ€å¤§ç»å¯¹å€¼ã€‚ä½œä¸ºå‰¯ä½œç”¨ï¼Œç”¨å›¾åƒæ˜¾
- * ç¤ºæ¯æ¬¡è®¡æ•°å™¨å˜åŒ–åçš„å€¼(xè½´ä¸ºæ¬¡æ•°ï¼Œyè½´ä¸ºå€¼)
+ * {@code VisualCounter} ±àĞ´Ò»¸öÀàVisualCounter£¬Ö§³Ö¼ÓÒ»ºÍ¼õÒ»²Ù×÷¡£ËüµÄ¹¹Ôìº¯Êı½ÓÊÜÁ½
+ * ¸ö²ÎÊıNºÍmax£¬ÆäÖĞNÖ¸¶¨ÁË²Ù×÷µÄ×î´ó´ÎÊı£¬maxÖ¸¶¨ÁË¼ÆÊıÆ÷µÄ×î´ó¾ø¶ÔÖµ¡£×÷Îª¸±×÷ÓÃ£¬ÓÃÍ¼ÏñÏÔ
+ * Ê¾Ã¿´Î¼ÆÊıÆ÷±ä»¯ºóµÄÖµ(xÖáÎª´ÎÊı£¬yÖáÎªÖµ)
  * 
  */
 public class VisualCounter {

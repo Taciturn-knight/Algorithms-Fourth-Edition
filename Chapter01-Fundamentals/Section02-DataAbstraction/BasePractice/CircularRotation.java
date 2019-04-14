@@ -1,7 +1,7 @@
 /**
- * ç¼–è¯‘: javac CircularRotation.java
- * æ‰§è¡Œ: java CircularRotation str1 str2
- * ä¾èµ–: StdOut.java
+ * ±àÒë: javac CircularRotation.java
+ * Ö´ĞĞ: java CircularRotation str1 str2
+ * ÒÀÀµ: StdOut.java
  * 
  * % java CircularRotation ACTGACG TGACGAC
  * true
@@ -10,8 +10,8 @@ import edu.princeton.cs.algs4.*;
 
 /**
  * Practice 1.2.6
- * {@code CircularRotation} å¦‚æœå­—ç¬¦ä¸²sä¸­å­—ç¬¦å¾ªç¯ç§»åŠ¨ä»»æ„ä½ç½®åèƒ½å¤Ÿå¾—åˆ°å¦ä¸€ä¸ªå­—ç¬¦ä¸²tï¼Œé‚£ä¹ˆ
- * så°±ç§°ä¸ºtçš„å›ç¯å˜ä½ã€‚ç¼–å†™ä¸€ä¸ªç¨‹åºæ£€æŸ¥ä¸¤ä¸ªç»™å®šçš„å­—ç¬¦ä¸²så’Œtæ˜¯å¦äº’ä¸ºå›ç¯å˜ä½ã€‚
+ * {@code CircularRotation} Èç¹û×Ö·û´®sÖĞ×Ö·ûÑ­»·ÒÆ¶¯ÈÎÒâÎ»ÖÃºóÄÜ¹»µÃµ½ÁíÒ»¸ö×Ö·û´®t£¬ÄÇÃ´
+ * s¾Í³ÆÎªtµÄ»Ø»·±äÎ»¡£±àĞ´Ò»¸ö³ÌĞò¼ì²éÁ½¸ö¸ø¶¨µÄ×Ö·û´®sºÍtÊÇ·ñ»¥Îª»Ø»·±äÎ»¡£
  */
 public class CircularRotation {
 

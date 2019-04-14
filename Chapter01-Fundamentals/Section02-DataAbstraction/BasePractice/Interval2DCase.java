@@ -1,7 +1,7 @@
 /**
- * ç¼–è¯‘: javac Interval2DCase.java
- * æ‰§è¡Œ: java Interval2DCase Interval2D.num Draw.min Draw.max 
- * ä¾èµ–: StdRandom.java Interval1D.java Interval2D.java StdDraw.java StdOut.java
+ * ±àÒë: javac Interval2DCase.java
+ * Ö´ĞĞ: java Interval2DCase Interval2D.num Draw.min Draw.max 
+ * ÒÀÀµ: StdRandom.java Interval1D.java Interval2D.java StdDraw.java StdOut.java
  * 
  * % java Interval2DCase 3 0 4
  * intersect num: 3
@@ -14,9 +14,9 @@ import edu.princeton.cs.algs4.StdOut;
 
 /**
  * Practice 1.2.3
- * {@code Interval2DCase} ç¼–å†™ä¸€ä¸ªInterval2Dçš„ç”¨ä¾‹ï¼Œä»å‘½ä»¤è¡Œæ¥å—å‚æ•°Nã€minå’Œmaxã€‚ç”ŸæˆNä¸ª
- * éšæœºçš„2Dé—´éš”ï¼Œå…¶å®½å’Œé«˜å‡åŒ€åˆ†å¸ƒåœ¨å•ä½æ­£æ–¹å½¢ä¸­çš„minå’Œmaxä¹‹é—´ã€‚ç”¨StdDrawç”»å‡ºå®ƒä»¬å¹¶æ‰“å°å‡ºç›¸äº¤
- * çš„é—´éš”å¯¹æ•°é‡ã€‚
+ * {@code Interval2DCase} ±àĞ´Ò»¸öInterval2DµÄÓÃÀı£¬´ÓÃüÁîĞĞ½ÓÊÜ²ÎÊıN¡¢minºÍmax¡£Éú³ÉN¸ö
+ * Ëæ»úµÄ2D¼ä¸ô£¬Æä¿íºÍ¸ß¾ùÔÈ·Ö²¼ÔÚµ¥Î»Õı·½ĞÎÖĞµÄminºÍmaxÖ®¼ä¡£ÓÃStdDraw»­³öËüÃÇ²¢´òÓ¡³öÏà½»
+ * µÄ¼ä¸ô¶ÔÊıÁ¿¡£
  */
 public class Interval2DCase {
 

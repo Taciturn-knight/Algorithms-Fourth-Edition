@@ -1,7 +1,7 @@
 /**
- * ç¼–è¯‘: javac SmartDate.java
- * è¿è¡Œ: java SmartDate year month day
- * ä¾èµ–: StdOut.java
+ * ±àÒë: javac SmartDate.java
+ * ÔËĞĞ: java SmartDate year month day
+ * ÒÀÀµ: StdOut.java
  * 
  * % java SmartDate 2018 3 13
  * 2018-03-13
@@ -11,7 +11,7 @@
 import edu.princeton.cs.algs4.*;
 /**
  * Practice 1.2.11
- * {@code SmartDate} æ ¹æ®Dateçš„APIå®ç°ä¸€ä¸ªSmartDateç±»å‹ï¼Œåœ¨æ—¥æœŸéæ³•æ—¶æŠ›å‡ºä¸€ä¸ªå¼‚å¸¸ã€‚
+ * {@code SmartDate} ¸ù¾İDateµÄAPIÊµÏÖÒ»¸öSmartDateÀàĞÍ£¬ÔÚÈÕÆÚ·Ç·¨Ê±Å×³öÒ»¸öÒì³£¡£
  */
 public class SmartDate {
     private static final int[] DAYS = { 0, 31, 29, 31, 30, 31, 30,
@@ -61,10 +61,10 @@ public class SmartDate {
 
     /**
      * Practice 1.2.12
-     * {@code dayOfWeek} ä¸ºSmartDateæ·»åŠ ä¸€ä¸ªæ–¹æ³•{@code dayOfWeek()}ï¼Œä¸ºæ—¥æœŸä¸­æ¯å‘¨çš„æ—¥
-     * è¿”å›Mondayã€Tuesdayã€Wednesdayã€Thursdayã€Fridayã€Saturdayæˆ–Sundayã€‚
+     * {@code dayOfWeek} ÎªSmartDateÌí¼ÓÒ»¸ö·½·¨{@code dayOfWeek()}£¬ÎªÈÕÆÚÖĞÃ¿ÖÜµÄÈÕ
+     * ·µ»ØMonday¡¢Tuesday¡¢Wednesday¡¢Thursday¡¢Friday¡¢Saturday»òSunday¡£
      * 
-     * Zellerå…¬å¼çš„æ”¹ç¼–ç‰ˆè®¡ç®—ï¼Œå…ˆç®—å‡ºä»Šå¹´1æœˆ1æ—¥çš„æ˜ŸæœŸï¼Œç„¶åç”¨ä»Šå¤©çš„å¹´ç§¯æ—¥ç®—å‡ºä»Šå¤©çš„æ˜ŸæœŸã€‚
+     * Zeller¹«Ê½µÄ¸Ä±à°æ¼ÆËã£¬ÏÈËã³ö½ñÄê1ÔÂ1ÈÕµÄĞÇÆÚ£¬È»ºóÓÃ½ñÌìµÄÄê»ıÈÕËã³ö½ñÌìµÄĞÇÆÚ¡£
      */
     private static int dayOfWeek(int y, int m, int d) {
         int _doy = dayToYear(y, m, d);
@@ -72,7 +72,7 @@ public class SmartDate {
         int _y = _year % 100;
         int _c = _year / 100;
         int _w = (_y + (_y / 4) + (_c / 4) - 2 * _c + 36) % 7 + ((_doy - 2) % 7); 
-        if(_w < 0)   // é˜²æ­¢è´Ÿæ•°æº¢å‡º
+        if(_w < 0)   // ·ÀÖ¹¸ºÊıÒç³ö
             _w += 7;
         return _w;
     }
