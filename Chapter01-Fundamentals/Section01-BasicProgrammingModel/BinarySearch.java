@@ -3,6 +3,7 @@ import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.In;
 import java.util.Arrays;
 
+// from 1.1.1 Java程序的基本结构
 //java BinarySearch largeW.txt < largeT.txt
 
 public class BinarySearch{
@@ -23,7 +24,8 @@ public class BinarySearch{
     }
 
     public static void main(String[] args){
-        int[] whitelist = In.readInts(args[0]);
+        In inputFile = new In(args[0]);
+        int[] whitelist = inputFile.readAllInts();
         Arrays.sort(whitelist);
         while(!StdIn.isEmpty()){
             int key = StdIn.readInt();

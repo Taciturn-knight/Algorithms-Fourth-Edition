@@ -3,7 +3,7 @@ import edu.princeton.cs.algs4.*;
 /**
  * BooleanArray
  */
-public class BooleanArray {
+public class Practice11 {
     public static void main(String[] args) {
 		boolean[][] bool = {{true,false,true},{false,false,true},{true,false,false}};
 

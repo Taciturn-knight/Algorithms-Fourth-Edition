@@ -3,7 +3,7 @@ import edu.princeton.cs.algs4.*;
 /**
  * Log2
  */
-public class Log2 {
+public class Practice20 {
 	public static double log2(long num) {
 		if(num == 1) return 0;
 		else return Math.log(num) + log2(num-1);

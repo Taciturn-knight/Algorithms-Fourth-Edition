@@ -3,7 +3,7 @@ import edu.princeton.cs.algs4.*;
 /**
  * Euclid
  */
-public class Euclid {
+public class Practice24 {
 	public static int euclid(int divisor, int dividend) {
 		StdOut.printf("divisor: %d\tdividend: %d\n", divisor,dividend);
 		int remainder = divisor%dividend;

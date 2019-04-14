@@ -1,7 +1,7 @@
 /**
  * Binomial
  */
-public class Binomial {
+public class Practice27 {
 
     public static double binomial(int N, int k ,double p) {
         if(N == 0 && k == 0) return 1.0;

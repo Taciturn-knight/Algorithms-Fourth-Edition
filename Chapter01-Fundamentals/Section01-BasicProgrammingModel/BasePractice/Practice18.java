@@ -1,9 +1,7 @@
-import edu.princeton.cs.algs4.*;
-
 /**
  * Mystery
  */
-public class Mystery {
+public class Practice18 {
 	public static int mystery(int a ,int b) {
 		if(b == 0) return 0;
 		if(b % 2 == 0) return mystery(a+a, b/2);

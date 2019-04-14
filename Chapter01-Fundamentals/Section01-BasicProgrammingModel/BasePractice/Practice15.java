@@ -3,7 +3,7 @@ import edu.princeton.cs.algs4.*;
 /**
  * Histogram
  */
-public class Histogram {
+public class Practice15 {
     public static int[] histogram(int[] a, int M) {
 		int[] hist = new int[M];
 		int aSize = a.length;

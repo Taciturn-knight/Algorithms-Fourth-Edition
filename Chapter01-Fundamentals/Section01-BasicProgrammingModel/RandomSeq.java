@@ -1,6 +1,9 @@
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
+// from 1.1.9.3 格式化输出
+// java RandomSeq 5 100.0 200.0
+
 public class RandomSeq{
     public static void main(String[] args)
     {

@@ -4,7 +4,7 @@ import edu.princeton.cs.algs4.*;
 /**
  * BinarySearchNew
  */
-public class BinarySearchNew {
+public class Practice23 {
 	public static int rank(int key, int[]a) {
         int lo = 0;
         int hi = a.length - 1;
@@ -21,7 +21,8 @@ public class BinarySearchNew {
         return -1;
 	}
     public static void main(String[] args) {
-        int[] whitelist = In.readInts(args[1]);
+        In inputInts = new In(args[1]);
+        int[] whitelist = inputInts.readAllInts();
         Arrays.sort(whitelist);
         while(!StdIn.isEmpty()){
             int key = StdIn.readInt();

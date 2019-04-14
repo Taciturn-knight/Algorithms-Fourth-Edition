@@ -1,5 +1,8 @@
 import edu.princeton.cs.algs4.StdDraw;
 
+// from 1.1.9.8 标准绘图库.函数值
+// java LogDraw
+
 public class LogDraw{
     public static void main(String[] args) {
         int n = 100;

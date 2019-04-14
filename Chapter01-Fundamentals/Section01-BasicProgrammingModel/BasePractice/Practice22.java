@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.*;
 /**
  * BinarySearch
  */
-public class BinarySearch {
+public class Practice22 {
 	public static int rank(int key, int depth, int[] a) {
 		depth++;
 		StdOut.printf("depth:%d\n",depth);

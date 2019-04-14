@@ -1,6 +1,24 @@
 # Algorithms-Fourth-Edition
-è¿™ä¸ªé¡¹ç›®å°†è®°å½•æˆ‘å­¦ä¹ ã€Šç®—æ³•ã€‹ç¬¬å››ç‰ˆçš„å­¦ä¹ è¿‡ç¨‹
+Õâ¸öÏîÄ¿½«¼ÇÂ¼ÎÒÑ§Ï°¡¶Ëã·¨¡·µÚËÄ°æµÄÑ§Ï°¹ı³Ì
 
-## å¦‚ä½•åœ¨ VSCode ä¸­ä½¿ç”¨ Algs4
+## ÈçºÎÔÚ VSCode ÖĞÊ¹ÓÃ Algs4
 
-[åŸºäº vscode-java æ‰©å±•](https://github.com/redhat-developer/vscode-java/issues/501)
+[»ùÓÚ vscode-java À©Õ¹](https://github.com/redhat-developer/vscode-java/issues/501)
+
+## Á·Ï°
+
+### ·ÖÀà
+
+* »ù´¡Á·Ï° base
+* Ìá¸ßÁ·Ï° improve
+* ÊµÑé exercise
+
+### Íê³É¶È
+
+|Íê³É¶È(%)|±êÊ¶|
+|:-:|:-:|
+|0 - 20| ![b](https://img.shields.io/badge/Base-4/25-lightgray.svg)|
+|20 - 40| ![i](https://img.shields.io/badge/Imporve-2/10-red.svg)|
+|40 - 60| ![e](https://img.shields.io/badge/Exercise-3/5-orange.svg)|
+|60 - 80| ![e](https://img.shields.io/badge/Exercise-12/15-yellow.svg)|
+|80 - 100| ![e](https://img.shields.io/badge/Exercise-16/20-brightgreen.svg)|

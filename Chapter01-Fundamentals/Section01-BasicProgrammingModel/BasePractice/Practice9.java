@@ -3,7 +3,7 @@ import edu.princeton.cs.algs4.*;
 /**
  * ToBinaryString
  */
-public class ToBinaryString {
+public class Practice9 {
     public static void main(String[] args) {
 		StdOut.printf("Please input a int Type num:");
         int num = StdIn.readInt();
