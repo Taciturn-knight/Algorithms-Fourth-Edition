@@ -40,8 +40,8 @@
 - [x] [1.2.9](BasePractice/BinarySerach.java)
 - [x] [1.2.10](BasePractice/VisualCounter.java)
 - [x] [1.2.11/12](BasePractice/SmartDate.java)
-- [] 1.2.13
-- [] 1.2.14
+- [ ] 1.2.13
+- [ ] 1.2.14
 
 ## Ã·∏ﬂÃ‚
 
