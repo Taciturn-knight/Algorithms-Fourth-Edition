@@ -1,0 +1,34 @@
+{
+  "name": "algorithms-fourth-edition",
+  "version": "1.0.0",
+  "description": "This is Algorithms fourth book study test",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaokai0402/Algorithms-Fourth-Edition.git"
+  },
+  "keywords": [
+    "Algorithms",
+    "Java"
+  ],
+  "author": "zhaokai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaokai0402/Algorithms-Fourth-Edition/issues"
+  },
+  "homepage": "https://github.com/zhaokai0402/Algorithms-Fourth-Edition#readme",
+  "husky":{
+    "hooks":{
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "husky": "^2.1.0"
+  }
+}
